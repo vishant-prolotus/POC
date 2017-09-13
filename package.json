@@ -1,0 +1,25 @@
+{
+	"name": "noderecord",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "nodemon ./bin/www"
+	},
+	"dependencies": {
+		"axios": "^0.16.1",
+		"bluebird": "^3.5.0",
+		"body-parser": "~1.17.1",
+		"cookie-parser": "~1.4.3",
+		"debug": "~2.6.3",
+		"dotenv": "^4.0.0",
+		"ejs": "~2.5.6",
+		"express": "~4.15.2",
+		"express-session": "^1.15.3",
+		"mongoose": "^4.9.7",
+		"morgan": "~1.8.1",
+		"serve-favicon": "~2.4.2",
+		"truffle-contract": "^1.1.6",
+		"web3": "^0.18.2",
+		"web3_extended": "^1.0.0"
+	}
+}
